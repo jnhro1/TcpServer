@@ -10,6 +10,8 @@ vs의 winform c#을 이용하여 tcp통신의 서버를 만들었다.
 
 send 기능 개발 예정
   
-![TcpServer](./image/image.PNG)
+![listen](./image/listen.PNG)
+![accept](./image/accept.PNG)
+![receive](./image/receive.PNG)
 
 
