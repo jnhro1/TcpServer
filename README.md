@@ -1,7 +1,5 @@
 # TcpServer
 vs의 winform c#을 이용하여 tcp통신의 서버를 만들었다.  
-  
-![TcpServer](C:\Users\jonahyun\Desktop\git\image\TcpServer.PNG)
 
 ## 기능
 1. ip주소 창에 연결된 ip주소를 나타냄
@@ -11,3 +9,7 @@ vs의 winform c#을 이용하여 tcp통신의 서버를 만들었다.
 5. 수신되는 값이 textbox에 나타남  
 
 send 기능 개발 예정
+  
+![TcpServer](./image/image.PNG)
+
+
