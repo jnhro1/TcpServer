@@ -7,11 +7,11 @@ vs의 winform c#을 이용하여 tcp통신의 서버를 만들었다.
 3. state에는 현재 연결 상태를 나타냄  
 4. 클라이언트 연결되면 textbox에 알림 문구 뜸
 5. 수신되는 값이 textbox에 나타남  
-
-send 기능 개발 예정
+6. 송신데이터 입력 후 Send 버튼 클릭 시 클라이언트에 데이터 전송  
   
 ![listen](./image/listen.PNG)
-![accept](./image/accept.PNG)
+![connect](./image/connect.PNG)
 ![receive](./image/receive.PNG)
+![send](./image/send.PNG)
 
 
