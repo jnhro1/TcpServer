@@ -146,7 +146,6 @@ namespace TcpServer
         }
 
 
-
         private void SendData(IAsyncResult iar)
 
         {
@@ -193,8 +192,20 @@ namespace TcpServer
 
             client.BeginSend(message2, 0, message2.Length, SocketFlags.None, SendData, client);
 
-        }
+            /*
+             * byte to string
+            byte[] message3 = Encoding.UTF8.GetBytes(recvData);
+            string binaryString = string.Empty;
 
+            foreach (byte b in message3)
+            {
+                // byte를 2진수 문자열로 변경
+                string s = Convert.ToString(b, 2);
+                binaryString += s.PadLeft(8, '0');
+            }
+            AppendText(this.richTextBox4, binaryString);
+            */
+        }
 
 
         void AppendText(Control ctrl, string s)
@@ -247,7 +258,7 @@ namespace TcpServer
 
             }
 
-            AppendText(this.richTextBox3, richTextBox5.Text.Trim());
+            AppendText(this.richTextBox4, richTextBox5.Text.Trim());
 
             richTextBox5.Clear();
 
