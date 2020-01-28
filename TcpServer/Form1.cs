@@ -217,7 +217,7 @@ namespace TcpServer
 
 
 
-        private void richTextBox5_KeyUp(object sender, KeyEventArgs e)
+        private void txtSend_KeyUp(object sender, KeyEventArgs e)
 
         {
 
@@ -253,16 +253,10 @@ namespace TcpServer
 
         }
 
-
-
-        private void button3_Click(object sender, EventArgs e)
-
+        private void button3_Click_1(object sender, EventArgs e)
         {
-
             SendMessaage();
-
         }
-
     }
 
 }
